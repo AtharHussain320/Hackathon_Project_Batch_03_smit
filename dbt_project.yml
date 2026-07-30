@@ -1,0 +1,9 @@
+name: 'iot_project'
+version: '1.0'
+profile: 'iot_project'
+
+model-paths: ["models"]
+
+models:
+  iot_project:
+    materialized: table
