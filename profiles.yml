@@ -1,0 +1,12 @@
+iot_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: user_account
+      user: user
+      password: 1234
+      role: ACCOUNTADMIN
+      database: IOT_DB
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
